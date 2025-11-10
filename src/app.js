@@ -12,5 +12,6 @@ app.get('/health', (req, res) => {
 });
 
 console.log("=> Rotas de /users carregada!");
+console.log("=> Rota de /health carregada!");
 
 module.exports = app;
