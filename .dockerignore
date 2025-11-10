@@ -1,0 +1,25 @@
+# Ignorar dependências locais
+node_modules
+npm-debug.log
+yarn-error.log
+
+# Logs e caches
+*.log
+.cache
+.tmp
+
+# Git e editor configs
+.git
+.gitignore
+.vscode
+.idea
+
+# Build e dist locais
+dist
+build
+
+# Sistema
+.DS_Store
+
+# Permite o Prisma schema
+!prisma/schema.prisma
