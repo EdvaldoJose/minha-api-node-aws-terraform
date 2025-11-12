@@ -27,3 +27,5 @@ EXPOSE 3000
 
 # Start automático via script
 CMD ["/bin/sh", "./scripts/start.sh"]
+
+# Comando alternativo para start manual
