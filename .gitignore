@@ -1,2 +1,15 @@
 
 /src/generated/prisma
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+crash.log
+terraform.tfvars
+*.tfvars
+
+# Node.js
+node_modules/
+.env
+dist/
